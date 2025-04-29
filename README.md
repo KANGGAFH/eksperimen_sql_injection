@@ -46,7 +46,7 @@ Struktur tabel `users`:
    - import database.sql
   
 3. **Buka file di browser :**
-   contohnya : *http:localhost/sql_percobaan/login_rentan.php*
+   contohnya : *http:localhost/eksperimen_sql_injection/login_rentan.php*
 
 4. **Coba login dengan input :**
    username: ' OR '1'='1
