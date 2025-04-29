@@ -36,7 +36,7 @@ Struktur tabel `users`:
 
 ---
 
-## 🚀 Cara Menjalankan
+## 💻 Cara Menjalankan
 
 1. **Aktifkan XAMPP** (Apache + MySQL)
    
@@ -54,7 +54,7 @@ Struktur tabel `users`:
    ![Screenshot_12](https://github.com/user-attachments/assets/a814fcd1-ed2d-4d7d-956c-f3fb4f4ee1ed) <br>
    ![Screenshot_13](https://github.com/user-attachments/assets/48b45287-3a35-49a3-8d32-bf667fb2fe7f)
 
-🔍Kenapa bisa berhasil ? Karena query SQL yang terbentuk adalah :
+🤔Kenapa bisa berhasil ? Karena query SQL yang terbentuk adalah :
 
 SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1'
 
