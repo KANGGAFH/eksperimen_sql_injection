@@ -16,7 +16,7 @@ Proyek ini merupakan simulasi sederhana untuk memahami bagaimana **SQL Injection
 |---------------|----------------------------------------------|
 | `login_rentan.php`   | Form login yang rentan terhadap SQL Injection |
 | `login_aman.php`   | Form login yang aman terhadap SQL Injection |
-| `database.sql`| Struktur database dan tabel `users`          |
+| `database_login.sql`| Struktur tabel dan isi tabel `users`          |
 
 ---
 
