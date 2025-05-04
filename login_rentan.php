@@ -5,7 +5,6 @@ if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Dengan prepared statement
     $query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
     $result = mysqli_query($conn, $query);
 
@@ -25,7 +24,7 @@ if (isset($_POST['login'])) {
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #f06, #f79);
+            background: linear-gradient(135deg, #2193b0, #6dd5ed);
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -43,7 +42,7 @@ if (isset($_POST['login'])) {
         h2 {
             text-align: center;
             margin-bottom: 20px;
-            color: #f06;
+            color: #2193b0;
         }
 
         input[type="text"],
@@ -58,7 +57,7 @@ if (isset($_POST['login'])) {
         input[type="submit"] {
             width: 100%;
             padding: 10px;
-            background-color: #f06;
+            background-color: #2193b0;
             color: white;
             font-weight: bold;
             border: none;
@@ -67,7 +66,7 @@ if (isset($_POST['login'])) {
         }
 
         input[type="submit"]:hover {
-            background-color: #e0055c;
+            background-color: #19779e;
         }
 
         .message {
@@ -87,6 +86,7 @@ if (isset($_POST['login'])) {
             background-color: #f8d7da;
             color: #721c24;
         }
+    </style>
     </style>
 </head>
 <body>
