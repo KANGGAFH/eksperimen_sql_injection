@@ -1,6 +1,6 @@
-# 🧪 Eksperimen SQL Injection untuk Pemula
+# 🧪 Uji Coba SQL Injection untuk Pemula
 
-Proyek ini merupakan simulasi sederhana untuk memahami bagaimana **SQL Injection** dapat terjadi pada form login yang tidak aman. Tujuan eksperimen ini adalah untuk edukasi dan meningkatkan kesadaran tentang pentingnya keamanan dalam pengembangan aplikasi web.
+Proyek ini merupakan simulasi sederhana untuk memahami bagaimana **SQL Injection** dapat terjadi pada form login yang tidak aman. Tujuan Uji Coba ini adalah untuk edukasi dan meningkatkan kesadaran tentang pentingnya keamanan dalam pengembangan aplikasi web.
 
 ---
 
@@ -51,10 +51,11 @@ Struktur tabel `users`:
 4. **Coba login dengan input :**
    username: ' OR '1'='1
    password: ' OR '1'='1
-   ![Screenshot_12](https://github.com/user-attachments/assets/a814fcd1-ed2d-4d7d-956c-f3fb4f4ee1ed) <br>
-   ![Screenshot_13](https://github.com/user-attachments/assets/48b45287-3a35-49a3-8d32-bf667fb2fe7f)
+   ![Screenshot_28](https://github.com/user-attachments/assets/d4af66a0-5da1-41d4-b3d7-c520e27c6ce3)
 
-🤔Kenapa bisa berhasil ? Karena query SQL yang terbentuk adalah :
+   ![Screenshot_14](https://github.com/user-attachments/assets/7b2f8a5e-e7d5-4a0b-9f34-0afe1a0d618c)
+
+**🤔Kenapa bisa berhasil ?** Karena query SQL yang terbentuk adalah :
 
 SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1'
 
