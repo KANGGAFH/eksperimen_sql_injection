@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "db_test");
+$conn = mysqli_connect("localhost", "root", "", "database_login");
 
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
